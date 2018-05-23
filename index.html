@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Datos curiosos</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <section class="first-section">
         <!-- Este es el título de mi html -->
-        <h1>Ingresa tu nombre por favor</h1>
-        <p>Este es un texto de ejemplo sobre mi herramienta favorita git</p>
+        <h1>Ingresa tu nombre, por favor</h1>
+        <p id="bienvenida"></p>
+        <button onclick="Click()">Ingresar</button>
+        <input id="nombre" type="text">
 
-        <!-- Texto que cambia gracias al manejo de DOM -->
-        <p id="paragraph">Tengo un mensaje secreto, clickea el botón y lo descubrirás</p>
+        <h1>Datos curiosos de los gatos</h1>
+        <button id="datosGato" >Mostrar datos curiosos</button>
+        <p id="gatos"></p>
 
-    <button id="button-change" >Click me</button> 
+        <h1>Ingrese su correo, por favor</h1>
+        <p id="email"></p>
+        <button onClick= "Correo()">Ingresar correo</button>
+        <input id="info" type="email">
 
-    <!-- Aquí se hace magia -->
-    <p id="text">Mírame fijamente</p>
-    <button id="magic">Magic</button>
+        <h1>Datos curiosos de los perros</h1>
+        <button id="datosPerro" >Mostrar datos curiosos</button>
+        <p id="perros"></p>
     </section>
-    <!-- Scripts -->
+   
    <script src="assets/js/app.js"></script> 
 </body>
 </html>
