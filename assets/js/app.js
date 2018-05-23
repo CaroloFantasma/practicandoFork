@@ -21,6 +21,6 @@ function Click() {
         })
     
         btnDos.addEventListener('click', function() {
-            txtDos.innerHTML = '<p>Los perros tienen 7 vidas</p>';
+            txtDos.innerHTML = '<p>Los perros y gatos sólo pueden sudar a través de las almohadillas de las patas y la nariz. El sentido del olfato de un perro es 10.000 veces más fuerte que el de los seres humanos.Las narices de los perros son únicas al igual que las huellas dactilares para los humanos</p>';
         })
     }
